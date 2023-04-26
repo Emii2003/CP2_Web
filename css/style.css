@@ -22,8 +22,8 @@
 }
 
 .menu img{
-    width: 70%;
-    max-width: 70%;
+    width: 100%;
+    max-width: 100%;
     display: block;
 }
 
@@ -45,8 +45,9 @@
 
 .conteudo{
     display: flex;
-    max-width: 90vw;
-    margin: 0 auto ;   
+    align-items: center;
+    min-height: 100vh;
+    margin-left: 8vh;
 }
 
 .conteudo h2{
@@ -54,17 +55,31 @@
     margin-bottom: 4vh;
 }
 
-.conteudo .cards{
-    margin-top: 10vh;
-}
-
 .conteudo img{
     max-width: 80%;
-    display: block;
     box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-/* footer{
-    position: fixed;
-    margin-top: 0;
-} */
+footer{
+    display: flex;
+    align-items: center;
+    bottom: 0;
+    justify-content: space-between;
+    height: 30vh;
+    max-height: 30vh;
+    background-color: #253237;
+}
+
+footer nav{
+    display: flex;
+}
+
+footer h2{
+    font-family: "Poppins";
+}
+
+footer nav a{
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
