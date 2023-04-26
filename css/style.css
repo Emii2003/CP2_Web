@@ -11,7 +11,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    height: 15vh;
+    height: 20vh;
     background-color: #253237;
 }
 
@@ -49,7 +49,7 @@
     display: flex;
     align-items: center;
     min-height: 100vh;
-    margin-left: 8vh;
+    margin-left: 10vh;
 }
 
 .conteudo h2{
@@ -77,11 +77,12 @@ footer nav{
 }
 
 footer h2{
+    margin-left: 2vw;
     font-family: "Poppins";
+    color: white;
 }
 
 footer nav a{
     margin-left: 1vw;
     margin-right: 1vw;
 }
-
