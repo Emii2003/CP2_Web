@@ -28,3 +28,9 @@
     max-width: 80%;
     margin: 1.5%;
 }
+
+.conteudo-card{
+    display: flex;
+    min-height: 100vh;
+    gap: 1.5em;
+}
