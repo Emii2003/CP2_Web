@@ -57,6 +57,19 @@ body, html {
     gap: 2em;
 }
 
+.cards {
+    border-radius: 2%;
+    border: 5px solid white;
+    background-color: #ffffff91;
+    padding: 2% 0;
+}
+
+.cards h2{
+    text-align: center;
+    margin-bottom: 5%;
+    font-weight: bold;
+}
+
 .conteudo-card {
     padding: 5em 10em;
     flex-direction: column;
@@ -70,17 +83,19 @@ body, html {
 
 
 .conteudo >div{
-    margin-left: 5vw;
+    margin: 0 2%;
 }
 
-.conteudo figure {
+.cards figure {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.conteudo figcaption {
+.cards figcaption {
     max-width: 80%;
+    margin: 1.5%;
+
 }
 
 .conteudo img{
