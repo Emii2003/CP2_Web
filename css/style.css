@@ -11,7 +11,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    height: 20vh;
+    height: 20%;
     background-color: #253237;
 }
 
@@ -89,4 +89,13 @@ footer h2{
 footer nav a{
     margin-left: 1vw;
     margin-right: 1vw;
+    
+}
+
+footer img{
+    transition: 0.5s;
+}
+
+footer img:hover{
+    transform: translateY(-10%);
 }
