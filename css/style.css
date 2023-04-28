@@ -37,3 +37,16 @@ body, html {
         align-items: center;
     }
 }
+
+@media(max-width:490px){
+    .menu img{
+        display: none;
+    }
+    .menu{
+        justify-content: center;
+        font-size: 4vw;
+    }
+    .conteudo-pages{
+        padding: 2em 2em;
+    }
+}
