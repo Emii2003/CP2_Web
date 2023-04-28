@@ -12,8 +12,27 @@
 
 p, h2 {
     font-family: "Poppins";
+    text-align: justify;
 }
 
 body, html {
     background-color: #eff6e0;
+}
+
+/* BREAKPOINTS 729px */
+
+@media(max-width:717px){
+    .conteudo{
+        display: inline-grid;
+        margin: 5% 0;
+    }
+    .conteudo >div{
+        margin: 0 5%;
+    }
+    .conteudo-pages{
+        padding: 2em 5em;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
