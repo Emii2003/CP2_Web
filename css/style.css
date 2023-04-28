@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+@import url("./rodape.css");
+@import url("./cards.css");
+@import url("./menu.css");
+@import url("./conteudo.css");
 
 *{
     margin: 0;
@@ -8,21 +12,33 @@
 
 p, h2 {
     font-family: "Poppins";
+    text-align: justify;
 }
 
 body, html {
     background-color: #eff6e0;
 }
 
-.menu{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height:86px;
-    background-color: #253237;
-    padding: 3em;
+
+/* BREAKPOINTS 729px */
+
+@media(max-width:717px){
+    .conteudo{
+        display: inline-grid;
+        margin: 5% 0;
+    }
+    .conteudo >div{
+        margin: 0 5%;
+    }
+    .conteudo-pages{
+        padding: 2em 5em;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
 
+<<<<<<< HEAD
 .menu nav{
     display: flex;
     justify-content: space-around;
@@ -123,4 +139,17 @@ footer img{
 
 footer img:hover{
     transform: translateY(-10%);
+=======
+@media(max-width:490px){
+    .menu img{
+        display: none;
+    }
+    .menu{
+        justify-content: center;
+        font-size: 4vw;
+    }
+    .conteudo-pages{
+        padding: 2em 2em;
+    }
+>>>>>>> 05f9bb45681ede245fc4df8bf17ea586b184acae
 }
